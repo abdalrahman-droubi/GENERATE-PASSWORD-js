@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 275px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.titel {
+  width: 926px;
+  height: 76px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #00519d;
+}
+
+.inputPassword {
+  width: 688px;
+  height: 75px;
+  border-radius: 4px;
+  border: 1px solid #ff6700;
+  text-align: center;
+  font-size: 28px;
+  color: #acacac;
+}
+.btn {
+  width: 370px;
+  height: 75px;
+  border-radius: 4px;
+  background-color: #ff6700;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
