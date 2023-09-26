@@ -3,6 +3,7 @@ const input = document.getElementById("inputPassword");
 const chars =
   "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 passwordLength = 16;
+
 btn.addEventListener("click", () => {
   let password = "";
   for (let i = 0; i < passwordLength; i++) {
@@ -11,3 +12,11 @@ btn.addEventListener("click", () => {
   }
   input.value = password;
 });
+
+input.addEventListener("click",()=>{
+  copyPassword()
+})
+
+const copyPassword = () => { 
+  navigator.clipboard.writeText(input.value);
+};

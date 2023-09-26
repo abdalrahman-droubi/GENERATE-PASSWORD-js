@@ -14,7 +14,7 @@ a {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
-  height: 275px;
+  height: 350px;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -38,10 +38,13 @@ a {
   text-align: center;
   font-size: 28px;
   color: #acacac;
+  cursor: copy;
 }
 .btn {
-  width: 370px;
+  /* width: 370px; */
+  padding: 0 50px ;
   height: 75px;
+  border: none;
   border-radius: 4px;
   background-color: #ff6700;
   font-family: Roboto;
@@ -49,4 +52,5 @@ a {
   font-weight: 400;
   text-align: center;
   color: white;
+  cursor: pointer;
 }

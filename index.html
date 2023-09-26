@@ -4,19 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Generate Password</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <section class="container">
       <h1 class="titel">Generate a Strong Passsword!</h1>
       <input
-      id="inputPassword"
+        id="inputPassword"
         type="text"
         class="inputPassword"
         placeholder="Click the button to generate a password"
         readonly
       />
-      <button class="btn" id="btn">GENERATE PASSWORD</button>
+        <button class="btn" id="btn">GENERATE PASSWORD</button>
+        <button class="btn" onclick="copyPassword()">Copy Password</button>
     </section>
     <script src="./index.js"></script>
   </body>
